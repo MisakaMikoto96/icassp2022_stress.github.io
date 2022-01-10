@@ -1,0 +1,573 @@
+<!-- saved from url=TODO -->
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Audio samples from "AUTOMATIC SYLLABLE-LEVEL STRESS ANNOTATION AND MODELING IN SPEECH SYNTHESIS"</title>
+</head>
+
+<body>
+    <article>
+        <header>
+            <h1>Audio samples from "AUTOMATIC SYLLABLE-LEVEL STRESS ANNOTATION AND MODELING IN SPEECH SYNTHESIS"</h1>
+        </header>
+    </article>
+
+    <div><b>Abstract:</b>
+        Current text-to-speech technique has developed to a mature level, and more research interest has been paid to
+        highly
+        expressive and more controllable speech synthesis. Stress detection and modeling in Mandarin TTS system has been
+        verified to be an efficient methodology in the previous study to establish the link between linguistic features
+        and
+        acoustic features. But to label the stress manually is time consuming and it is not a trivial task. In this
+        paper, based
+        on the conception of ``tone aggregation'' linguistic findings, we proposed an automatic syllable-level stress
+        annotation
+        mechanism from audio files for speech data. And based on the labelled data a text-to-speech system is built and
+        tested.
+        Experiments show that, proposed method can consistently predict stress through a linguistic context based
+        front-end
+        module. And speech synthesis systems with proposed stress annotation and modeling method outperforms baseline
+        systems. <div>
+
+            <div>
+                <a name="stress_position">
+                    <h2>Stress position</h2>
+                </a>
+                <style type="text/css">
+                    .tg {
+                        border: none;
+                        border-collapse: collapse;
+                        border-spacing: 0;
+                    }
+
+                    .tg td {
+                        border-style: solid;
+                        border-width: 0px;
+                        font-family: Arial, sans-serif;
+                        font-size: 14px;
+                        overflow: hidden;
+                        padding: 10px 5px;
+                        word-break: normal;
+                    }
+
+                    .tg th {
+                        border-style: solid;
+                        border-width: 0px;
+                        font-family: Arial, sans-serif;
+                        font-size: 14px;
+                        font-weight: normal;
+                        overflow: hidden;
+                        padding: 10px 5px;
+                        word-break: normal;
+                    }
+
+                    .tg .tg-u71t {
+                        font-size: medium;
+                        text-align: left;
+                        vertical-align: top
+                    }
+
+                    .tg .tg-qjz7 {
+                        font-size: medium;
+                        text-align: center;
+                        vertical-align: top
+                    }
+                </style>
+                <table class="tg">
+                    <thead>
+                        <tr>
+                            <th class="tg-u71t" colspan="10"> Different position and degress of stress in sentence often
+                                represent different semantic meanings. Samples are generated from our controllable
+                                stress-modeled TTS system with SSML input of stress.
+                            </th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td class="tg-u71t"></td>
+                            <td class="tg-qjz7"><span style="font-style:italic">张小花中午去「射箭」了。</span></td>
+
+                            <td class="tg-qjz7"><span style="font-weight:400;font-style:italic">张小花「中午」去射箭了。</span><br>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td class="tg-u71t" style="width: 100px;">Sample 1</td>
+                            <!-- base_en_text1_EN Speaker -->
+                            <td style="width: 280px;"><audio controls="">
+                                    <source src="samples/different_position/1_a.wav"></audio></td>
+                            <td style="width: 280px;"><audio controls="">
+                                    <source src="samples/different_position/1_b.wav"></audio></td>
+                        </tr>
+
+                        <tr>
+                            <td class="tg-u71t"></td>
+                            <td class="tg-qjz7"><span style="font-style:italic">「这」副护具掉下楼了。</span></td>
+
+                            <td class="tg-qjz7"><span style="font-weight:400;font-style:italic">这副「护具」掉下楼了。</span><br>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td class="tg-u71t" style="width: 100px;">Sample 2</td>
+                            <!-- base_en_text1_EN Speaker -->
+                            <td style="width: 280px;"><audio controls="">
+                                    <source src="samples/different_position/2_b.wav"></audio></td>
+                            <td style="width: 280px;"><audio controls="">
+                                    <source src="samples/different_position/2_a.wav"></audio></td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+
+            </div>
+
+
+
+
+            <div>
+
+                <a name="q_a_context">
+                    <h2>Q&A context</h2>
+                </a>
+
+                <style type="text/css">
+                    .tg {
+                        border: none;
+                        border-collapse: collapse;
+                        border-spacing: 0;
+                    }
+
+                    .tg td {
+                        border-style: solid;
+                        border-width: 0px;
+                        font-family: Arial, sans-serif;
+                        font-size: 14px;
+                        overflow: hidden;
+                        padding: 10px 5px;
+                        word-break: normal;
+                    }
+
+                    .tg th {
+                        border-style: solid;
+                        border-width: 0px;
+                        font-family: Arial, sans-serif;
+                        font-size: 14px;
+                        font-weight: normal;
+                        overflow: hidden;
+                        padding: 10px 5px;
+                        word-break: normal;
+                    }
+
+                    .tg .tg-u71t {
+                        font-size: medium;
+                        text-align: left;
+                        vertical-align: top
+                    }
+
+                    .tg .tg-qjz7 {
+                        font-size: medium;
+                        text-align: center;
+                        vertical-align: top
+                    }
+
+                    .tg .tg-qjz8 {
+                        font-size: medium;
+                        font-weight: bold;
+                        text-align: left;
+                        vertical-align: top
+                    }
+
+                    ul {
+                        list-style-type: none;
+                        padding: 0px;
+                        margin: 0px;
+                    }
+
+                    ul li {
+                        background-image: url(sqpurple.gif);
+                        background-repeat: no-repeat;
+                        background-position: 0px 5px;
+                        padding-left: 14px;
+                    }
+                </style>
+
+
+
+                <th class="tg-u71t" colspan="10"> In this part, there are 4 system:
+
+                    <ul>
+
+                        <li class="tg-qjz8"><span style="font-style:italic;font-weight:bold">Baseline (Baseline acoustic
+                                model without stress input)</span></li>
+
+                        <li class="tg-qjz8"><span style="font-style:italic;font-weight:bold">Stress_Predictor (An
+                                predictor set in acoustic model to predict stress from F0/energy/duration, and then
+                                concat with other embeddings.)</span>
+                        </li>
+
+                        <li class="tg-qjz8"><span style="font-style:italic;font-weight:bold">Front-end_model (Predict
+                                stress from text, and make it to be the condition embedding and concat with other
+                                embeddings. )</span></li>
+
+                        <li class="tg-qjz8"><span style="font-style:italic;font-weight:bold"> Manual (Annotate stress by
+                                annotator, and make it to be the condition embedding and concat with other
+                                embeddings.) </span></li>
+                    </ul>
+
+
+                    we use some question-and-answer contexts from our Q&A datasets to verify
+                    whether stress obtained by
+                <td class="tg-qjz7"><span style="font-style:italic">Baseline, </span></td>
+                <td class="tg-qjz7"><span style="font-style:italic">Stress_Predictor, </span></td>
+                <td class="tg-qjz7"><span style="font-weight:400;font-style:italic">Front-end_model, </span><br>
+                </td>
+                <td class="tg-qjz7"><span style="font-weight:400;font-style:italic">Manual
+                    </span></td>
+                could make different performance of acoustic model.
+                </th>
+                <table class="tg">
+
+
+
+
+                    <tbody>
+                        <thead>
+                            <tr>
+                                <th class="tg-u71t" colspan="5"> Qustion_1:
+                                    张三哪天中午吃了粽子？（Which day did Zhang
+                                    San eat dumplings at noon?）</th>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <td class="tg-u71t"></td>
+                            <td class="tg-qjz7"><span style="font-style:italic">Baseline</span></td>
+                            <td class="tg-qjz7"><span style="font-style:italic">Stress_Predictor</span></td>
+                            <td class="tg-qjz7"><span
+                                    style="font-weight:400;font-style:italic">Front-end_model</span><br>
+                            </td>
+                            <td class="tg-qjz7"><span style="font-weight:400;font-style:italic">Manual
+                                </span><br></td>
+                        </tr>
+                        <tr>
+                            <td class="tg-u71t" style="width: 950px;">Answer_1: 张三「今天」中午吃了粽子。(Today, Zhang San had
+                                dumplings
+                                for lunch.)</td>
+                            <!-- base_en_text1_EN Speaker -->
+                            <td style="width: 280px;"><audio controls="">
+                                    <source src="samples/Q_A/A_BASELINE/1_a.wav"></audio></td>
+                            <td style="width: 280px;"><audio controls="">
+                                    <source src="samples/Q_A/A_PREDICT/1_a.wav"></audio></td>
+                            <td style="width: 280px;"><audio controls="">
+                                    <source src="samples/Q_A/A_FE/1_a.wav"></audio></td>
+                            <td style="width: 280px;"><audio controls="">
+                                    <source src="samples/Q_A/A_MANUAL/1_a.wav"></audio></td>
+                        </tr>
+
+
+                        <thead>
+                            <tr>
+                                <th class="tg-u71t" colspan="5"> Qustion_2:
+                                    我闻到了了糊味，是什么东西烧糊了？（What is burning?）</th>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <td class="tg-u71t"></td>
+                            <!-- <td class="tg-qjz7"><span style="font-style:italic">Base_without_stress</span></td>
+                            <td class="tg-qjz7"><span
+                                    style="font-style:italic">Stress_Predictor_in_acoustic_model</span></td>
+                            <td class="tg-qjz7"><span
+                                    style="font-weight:400;font-style:italic">Front-end_predict</span><br>
+                            </td>
+                            <td class="tg-qjz7"><span style="font-weight:400;font-style:italic">Manual_Stress_input
+                                </span><br></td> -->
+                        </tr>
+                        <tr>
+                            <td class="tg-u71t" style="width: 950px;">Answer_2: 是他把「面条」烧糊了。（It's the noodle he
+                                scorched.）
+                            </td>
+                            <!-- base_en_text1_EN Speaker -->
+                            <td style="width: 280px;"><audio controls="">
+                                    <source src="samples/Q_A/A_BASELINE/10_a.wav"></audio></td>
+                            <td style="width: 280px;"><audio controls="">
+                                    <source src="samples/Q_A/A_PREDICT/10_a.wav"></audio></td>
+                            <td style="width: 280px;"><audio controls="">
+                                    <source src="samples/Q_A/A_FE/10_a.wav"></audio></td>
+                            <td style="width: 280px;"><audio controls="">
+                                    <source src="samples/Q_A/A_MANUAL/10_a.wav"></audio></td>
+                        </tr>
+
+
+
+                        <thead>
+                            <tr>
+                                <th class="tg-u71t" colspan="5"> Qustion_3:
+                                    是哪个花瓶碎了？（Which vase is broken?）</th>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <td class="tg-u71t"></td>
+
+                        </tr>
+                        <tr>
+                            <td class="tg-u71t" style="width: 950px;">Answer_3: 是「这个」花瓶碎了。（It was this vase that broke.）
+                            </td>
+                            <!-- base_en_text1_EN Speaker -->
+                            <td style="width: 280px;"><audio controls="">
+                                    <source src="samples/Q_A/A_BASELINE/8_a.wav"></audio></td>
+                            <td style="width: 280px;"><audio controls="">
+                                    <source src="samples/Q_A/A_PREDICT/8_a.wav"></audio></td>
+                            <td style="width: 280px;"><audio controls="">
+                                    <source src="samples/Q_A/A_FE/8_a.wav"></audio></td>
+                            <td style="width: 280px;"><audio controls="">
+                                    <source src="samples/Q_A/A_MANUAL/8_a.wav"></audio></td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+
+                <div>
+                    <a name="sentence_level">
+                        <h2>Sentence Level evaluation</h2>
+                    </a>
+                    <style type="text/css">
+                        .tg {
+                            border: none;
+                            border-collapse: collapse;
+                            border-spacing: 0;
+                        }
+
+                        .tg td {
+                            border-style: solid;
+                            border-width: 0px;
+                            font-family: Arial, sans-serif;
+                            font-size: 14px;
+                            overflow: hidden;
+                            padding: 10px 5px;
+                            word-break: normal;
+                        }
+
+                        .tg th {
+                            border-style: solid;
+                            border-width: 0px;
+                            font-family: Arial, sans-serif;
+                            font-size: 14px;
+                            font-weight: normal;
+                            overflow: hidden;
+                            padding: 10px 5px;
+                            word-break: normal;
+                        }
+
+                        .tg .tg-u71t {
+                            font-size: medium;
+                            text-align: left;
+                            vertical-align: top
+                        }
+
+                        .tg .tg-qjz7 {
+                            font-size: medium;
+                            text-align: center;
+                            vertical-align: top
+                        }
+                    </style>
+                    <table class="tg">
+                        <thead>
+                            <tr>
+                                <th class="tg-u71t" colspan="10">In this part, we selected three group of systems
+                                    which performed well in the Q&A phase below:
+
+
+                                    <span style="font-style:italic;font-weight:bold">Baseline, </span>
+                                    <span style="font-style:italic;font-weight:bold">Front-end_model and </span>
+                                    <span style="font-style:italic;font-weight:bold">Manual, </span>
+                                    and then we evaluate its performance on sentences-level (short paragraph)
+                                    respectively.
+                                </th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+
+                            <tr>
+                                <td class="tg-u71t" style="width: 100px;">Sample 1:</td>
+                            <tr>
+                                <td class="tg-qjz7"><span style="font-style:italic">Baseline</span></td>
+                                <td class="tg-qjz7"><span
+                                        style="font-weight:400;font-style:italic">Front-end_model</span><br>
+                                </td>
+                                <td class="tg-qjz7"><span style="font-weight:400;font-style:italic">Manual
+                                    </span><br></td>
+                            </tr>
+                            <!-- base_en_text1_EN Speaker -->
+                            <td style="width: 280px;"><audio controls="">
+                                    <source src="samples/short_sentence/xidaogongzi_baseline_chapter/1.wav"></audio>
+                            </td>
+                            <td style="width: 280px;"><audio controls="">
+                                    <source src="samples/short_sentence/xidaogongzi_fe/1.wav"></audio></td>
+                            <td style="width: 280px;"><audio controls="">
+                                    <source src="samples/short_sentence/xidaogongzi_anno/1.wav"></audio></td>
+                            </tr>
+
+
+                            <tr>
+                                <td class="tg-u71t" style="width: 100px;">Sample 2:
+                                </td>
+                            <tr>
+                                <!-- base_en_text1_EN Speaker -->
+                                <td style="width: 280px;"><audio controls="">
+                                        <source src="samples/short_sentence/xidaogongzi_baseline_chapter/2.wav"></audio>
+                                </td>
+                                <td style="width: 280px;"><audio controls="">
+                                        <source src="samples/short_sentence/xidaogongzi_fe/2.wav"></audio></td>
+                                <td style="width: 280px;"><audio controls="">
+                                        <source src="samples/short_sentence/xidaogongzi_anno/2.wav"></audio></td>
+                            </tr>
+
+                            <tr>
+                                <td class="tg-u71t" style="width: 100px;">Sample 3:
+                                </td>
+                            <tr>
+                                <!-- base_en_text1_EN Speaker -->
+                                <td style="width: 280px;"><audio controls="">
+                                        <source src="samples/short_sentence/xidaogongzi_baseline_chapter/6.wav"></audio>
+                                </td>
+                                <td style="width: 280px;"><audio controls="">
+                                        <source src="samples/short_sentence/xidaogongzi_fe/6.wav"></audio></td>
+                                <td style="width: 280px;"><audio controls="">
+                                        <source src="samples/short_sentence/xidaogongzi_anno/6.wav"></audio></td>
+                            </tr>
+
+                            <tr>
+                                <td class="tg-u71t" style="width: 100px;">Sample 4:
+                                </td>
+                            <tr>
+                                <!-- base_en_text1_EN Speaker -->
+                                <td style="width: 280px;"><audio controls="">
+                                        <source src="samples/short_sentence/xidaogongzi_baseline_chapter/10.wav">
+                                    </audio>
+                                </td>
+                                <td style="width: 280px;"><audio controls="">
+                                        <source src="samples/short_sentence/xidaogongzi_fe/10.wav"></audio></td>
+                                <td style="width: 280px;"><audio controls="">
+                                        <source src="samples/short_sentence/xidaogongzi_anno/10.wav"></audio></td>
+                            </tr>
+
+
+                        </tbody>
+
+                    </table>
+
+
+                </div>
+
+
+
+
+                <div>
+                    <a name="sentence_level">
+                        <h2>Chapter Level evaluation</h2>
+                    </a>
+                    <style type="text/css">
+                        .tg {
+                            border: none;
+                            border-collapse: collapse;
+                            border-spacing: 0;
+                        }
+
+                        .tg td {
+                            border-style: solid;
+                            border-width: 0px;
+                            font-family: Arial, sans-serif;
+                            font-size: 14px;
+                            overflow: hidden;
+                            padding: 10px 5px;
+                            word-break: normal;
+                        }
+
+                        .tg th {
+                            border-style: solid;
+                            border-width: 0px;
+                            font-family: Arial, sans-serif;
+                            font-size: 14px;
+                            font-weight: normal;
+                            overflow: hidden;
+                            padding: 10px 5px;
+                            word-break: normal;
+                        }
+
+                        .tg .tg-u71t {
+                            font-size: medium;
+                            text-align: left;
+                            vertical-align: top
+                        }
+
+                        .tg .tg-qjz7 {
+                            font-size: medium;
+                            text-align: center;
+                            vertical-align: top
+                        }
+                    </style>
+                    <table class="tg">
+                        <thead>
+                            <tr>
+                                <th class="tg-u71t" colspan="10">In this part, we directly compared two systems
+                                    with manually-checked stress input, and without stress input.
+
+                                    <span style="font-style:italic;font-weight:bold">Baseline, </span>
+                                    <span style="font-style:italic;font-weight:bold">Manual, </span>
+                                    and then we evaluate its performance on chapter-level (long paragraph)
+                                    respectively. This part is to explore the Human Fatigue(When people listen to long
+                                    passages
+                                    generated from TTS system, if the audio have no pitch rise and fall, they may often
+                                    lose interest in
+                                    what follows, which we call Human fatigue.) in real usage scenarios.
+                                </th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+                                <td class="tg-u71t" style="width: 100px;">Sample:
+                                </td>
+                            <tr>
+                                <td class="tg-qjz7"><span style="font-style:italic">Baseline</span></td>
+                                <td class="tg-qjz7"><span style="font-weight:400;font-style:italic">Manual
+                                    </span><br></td>
+                            </tr>
+                            <tr>
+                                <!-- base_en_text1_EN Speaker -->
+                                <td style="width: 280px;"><audio controls="">
+                                        <source src="samples/long_paragraph/baseline/1.wav"></audio>
+                                </td>
+                                <td style="width: 280px;"><audio controls="">
+                                        <source src="samples/long_paragraph/anno/1.wav"></audio></td>
+                            </tr>
+
+
+
+
+                        </tbody>
+
+                    </table>
+
+
+                </div>
+
+
+
+
+            </div>
+
+</body>
+
+</html>
